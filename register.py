@@ -9,7 +9,7 @@ CORS(app)
 # Google Sheets Configuration
 SPREADSHEET_ID = '1c1EdwOSD_IKSW71xKXCiz-vdlm18OYzcwLhPS2cxhU4'
 SHEET_NAME = 'Sheet2'  # Change this to the name of your sheet
-CREDENTIALS_FILE = 'C:\\Users\\Ankur Vasani\\Desktop\\trinity_backup\\trinity-registrations-1f920e0fbad0.json'
+CREDENTIALS_FILE = '/etc/secrets/trinity-registrations-1f920e0fbad0.json'
 
 # Function to append data to Google Sheets
 def append_to_sheet(data):
