@@ -1,2 +1,4 @@
 register_trinity
 .env
+credientials.json
+google.json
